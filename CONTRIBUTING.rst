@@ -3,7 +3,7 @@ Maven
 =====
 Glotto uses the `Maven Wrapper <https://github.com/takari/maven-wrapper>`_ for builds.
 
-* Run ``mvn -N io.takari:maven:0.7.7:wrapper -Dmaven=$VERSION`` to update the wrapper script.
+* Run ``./mvnw -N io.takari:maven:0.7.7:wrapper -Dmaven=$VERSION`` to update the wrapper script.
 
 =======
 Linting
