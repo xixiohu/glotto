@@ -1,4 +1,6 @@
 language: java
 jdk:
   - openjdk11
-script: mvn package
+script: 
+  - chmod +w mvnw
+  - ./mvnw package
