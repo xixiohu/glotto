@@ -2,5 +2,6 @@ language: java
 jdk:
   - openjdk11
 script: 
-  - chmod +w mvnw
   - ./mvnw package
+before_install:
+  - chmod +w mvnw
