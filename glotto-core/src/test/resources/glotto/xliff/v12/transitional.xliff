@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2"
+    xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd"
+    xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file id="f1"
+      original="values/strings.xml"
+      source-language="en-US"
+      target-language="en-US"
+      data-type="plaintext">
+    <body>
+      <trans-unit id="t1" resname="key_1">
+        <context-group>
+          <context context-type=""></context>
+        </context-group>
+        <note>This is a note</note>
+        <source>Hello!</source>
+        <target state="needs-translation"></target>
+      </trans-unit>
+      <group id="a1" resname="animals" restype="x-glotto-array">
+        <context-group>
+          <context context-type="x-">value 1</context>
+        </context-group>
+        <trans-unit id="a1[0]" resname="animals:0">
+          <source>cat</source>
+          <target state="needs-translation"></target>
+        </trans-unit>
+        <trans-unit id="a1[1]" resname="animals:0">
+          <source>dog</source>
+          <target state="needs-translation"></target>
+        </trans-unit>
+        <trans-unit id="a1[2]" resname="animals:0">
+          <source>mouse</source>
+          <target state="needs-translation"></target>
+        </trans-unit>
+      </group>
+      <group id="a1" resname="animals" restype="x-glotto-array">
+        <context-group>
+          <context context-type=""></context>
+        </context-group>
+        <trans-unit id="a1[0]" resname="animals:0">
+          <context-group>
+            <context context-type=""></context>
+          </context-group>
+          <source>cat</source>
+          <target state="needs-translation"></target>
+        </trans-unit>
+        <trans-unit id="a1[1]" resname="animals:0">
+          <source>dog</source>
+          <target state="needs-translation"></target>
+        </trans-unit>
+        <trans-unit id="a1[2]" resname="animals:0">
+          <source>mouse</source>
+          <target state="needs-translation"></target>
+        </trans-unit>
+      </group>
+      <group id="p1" resname="key_pies" restype="x-glotto-plurals">
+        <context-group>
+          <context context-type=""></context>
+        </context-group>
+        <trans-unit id="p1[0]" resname="key_pies:zero">
+          <source>%d pies</source>
+          <target state="needs-translation"></target>
+        </trans-unit>
+        <trans-unit id="p1[1]" resname="key_pies:one">
+          <source>%d pie</source>
+          <target state="needs-translation"></target>
+        </trans-unit>
+        <trans-unit id="p1[2]" resname="key_pies:few">
+          <source>%d pies</source>
+          <target state="needs-translation"></target>
+        </trans-unit>
+        <trans-unit id="p1[3]" resname="key_pies:many">
+          <source>%d pies</source>
+          <target state="needs-translation"></target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
